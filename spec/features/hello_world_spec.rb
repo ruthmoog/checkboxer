@@ -1,5 +1,7 @@
-feature "Hello, world!" do
-  scenario "index displays hello world" do
+# frozen_string_literal: true
+
+feature 'Hello, world!' do
+  scenario 'index displays hello world' do
     visit '/'
     expect(page).to have_content('Hello, world!')
   end
