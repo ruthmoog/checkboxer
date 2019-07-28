@@ -8,6 +8,39 @@ This tool replaces manual, paper checklists.  Compared to existing workflows, Ch
 
 Set up: Journals must create a csv file of standard correspondence modules to build templates from.
 
+## Running the tests
+
+To run all feature and unit tests, use `rspec` in the command line from the project root:
+```shell
+$ rspec
+
+Hello, world!
+  index displays hello world
+
+Finished in 0.01611 seconds (files took 0.42259 seconds to load)
+1 example, 0 failures
+```
+
+To run code style tests, use `rubocop` in the command line from the project root:
+```shell
+$ rubocop
+Inspecting 6 files
+......
+
+6 files inspected, no offenses detected
+```
+
+## Tech stack
+
+- Capybara
+- CSS
+- Embedded Ruby
+- HTML
+- RSpec
+- Rubocop
+- Ruby
+- SimpleCov
+- Sinatra
 
 ## Animal Checkboxes??
 
