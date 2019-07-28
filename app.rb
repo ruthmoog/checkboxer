@@ -5,6 +5,10 @@ require 'sinatra/base'
 # App controller for 'Checkboxer'
 class Checkboxer < Sinatra::Base
   get '/' do
-    'Hello, world!'
+    erb(:index)
+  end
+
+  post '/templates' do
+    erb(:templates)
   end
 end
