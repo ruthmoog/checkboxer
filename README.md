@@ -11,7 +11,7 @@ Set up: Journals must create a csv file of standard correspondence modules to bu
 ## Running the tests
 
 To run all feature and unit tests, use `rspec` in the command line from the project root:
-```shell
+```console
 $ rspec
 
 Hello, world!
@@ -22,7 +22,7 @@ Finished in 0.01611 seconds (files took 0.42259 seconds to load)
 ```
 
 To run code style tests, use `rubocop` in the command line from the project root:
-```shell
+```console
 $ rubocop
 Inspecting 6 files
 ......
