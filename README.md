@@ -15,10 +15,10 @@ I had the idea to implement this project before I could code.  In March 2019 I m
 
 ## How to run
 
-Run the file from the command line with `ruby AnimalCheckboxes.rb` then in your web browser navigate to the local address `localhost:4567`:
+Run the file from the command line with `ruby animal_checkboxes.rb` then in your web browser navigate to the local address `localhost:4567`:
 
 ```shell
-$ ruby AnimalCheckboxes.rb
+$ ruby animal_checkboxes.rb
 == Sinatra (v2.0.5) has taken the stage on 4567 for development with backup from Thin
 Thin web server (v1.7.2 codename Bachmanity)
 Maximum connections set to 1024
