@@ -8,6 +8,10 @@ class Checkboxer < Sinatra::Base
     erb(:index)
   end
 
+  get '/template/new' do
+    erb(:new)
+  end
+
   post '/templates' do
     erb(:templates)
   end
