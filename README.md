@@ -8,6 +8,18 @@ This tool replaces manual, paper checklists.  Compared to existing workflows, Ch
 
 Set up: Journals must create a csv file of standard correspondence modules to build templates from.
 
+## Installation
+
+First download the required gems with bundler:
+```console
+$ bundle install
+```
+
+Then you'll need to install a webserver, I've used `thin`:
+```console
+$ gem install thin
+```
+
 ## Running the tests
 
 To run all feature and unit tests, use `rspec` in the command line from the project root:
@@ -28,6 +40,19 @@ Inspecting 6 files
 ......
 
 6 files inspected, no offenses detected
+```
+
+## Running the app
+
+Run your webserver then navigate to the `localhose:XXportXX` in your browser.
+
+Eg using `thin` run the command in your terminal then go to `localhost:3000`:
+```console
+$ thin start
+Using rack adapter
+Thin web server (v1.7.2 codename Bachmanity)
+Maximum connections set to 1024
+Listening on 0.0.0.0:3000, CTRL+C to stop
 ```
 
 ## Tech stack
