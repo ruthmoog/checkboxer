@@ -4,7 +4,7 @@ require 'csv'
 
 # Creates a checklist as an array
 class Checklist
-  def generate_checklist
+  def self.generate
     data_file = 'default_data.csv'
     list = []
     CSV.foreach(data_file) do |row|

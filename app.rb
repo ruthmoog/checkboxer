@@ -10,7 +10,7 @@ class Checkboxer < Sinatra::Base
   end
 
   get '/template/new' do
-    @checklist = Checklist.new.generate_checklist
+    @checklist = Checklist.generate
     erb(:new)
   end
 
