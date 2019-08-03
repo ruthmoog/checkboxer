@@ -1,13 +1,12 @@
 # frozen_string_literal: true
 
-require 'checklist'
 require 'check'
 
-RSpec.describe 'checklist' do
+RSpec.describe 'check' do
   it 'returns a collection of checks' do
-    check = Check.new('request a change', 'Please complete request a change.')
-    expect(Checklist.generate).to be_an(Array)
-    expect(Checklist.generate[0].requirement).to eq(check.requirement)
-    expect(Checklist.generate[0].request).to eq(check.request)
+    expected_check = Check.new('request a change', 'Please complete request a change.')
+    expect(Check.generate).to be_an(Array)
+    expect(Check.generate[0].requirement).to eq(expected_check.requirement)
+    expect(Check.generate[0].request).to eq(expected_check.request)
   end
 end
