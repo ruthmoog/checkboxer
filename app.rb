@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'sinatra/base'
+require_relative './lib/checklist.rb'
 
 # App controller for 'Checkboxer'
 class Checkboxer < Sinatra::Base
@@ -9,6 +10,7 @@ class Checkboxer < Sinatra::Base
   end
 
   get '/template/new' do
+    @checklist = Checklist.new.generate_checklist
     erb(:new)
   end
 

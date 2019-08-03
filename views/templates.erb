@@ -2,8 +2,8 @@
 
 Dear author,
 <br />
-<% if @choice == 'on' %>
-  Please complete "request a change".
+<% if @choice %>
+    <%= @choice %>
 <% else %>
   There are no corrections.
 <% end %>

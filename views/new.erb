@@ -2,11 +2,17 @@
 <br />
 
 <form method="POST" action="/templates">
+<% @checklist.each do |check| %>
   <label>
-    <input name='checklist_item' type='checkbox' />request a change
+  <input name='checklist_item' type='checkbox' value='<%= check.request %>'/><%= check.requirement %>
   </label>
+<% end %>
+
+  <%# <label>
+    <input name='checklist_item' type='checkbox' />request a change
+  </label> %>
 
   <br />
-  
+
   <input type="submit" name="Submit" />
 </form>
