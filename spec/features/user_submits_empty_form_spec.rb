@@ -6,7 +6,7 @@ feature 'user submits empty template request' do
     click_link('Checklist')
     expect(page).to have_button('Submit')
     click_button('Submit')
-    expect(page).to have_content('Dear author,')
+    expect(page).to have_content('There are no corrections.')
     expect(page).not_to have_content('Please complete "request a change".')
   end
 end
