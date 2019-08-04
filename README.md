@@ -83,6 +83,8 @@ New critique at file:XXX.html
 Score: 96.28
 ```
 
+![lighthouse audit](./public/images/lighthouse.png)
+
 ## Tech stack
 
 - [Capybara](https://github.com/teamcapybara/capybara) - an acceptance test framework for web applications
