@@ -76,3 +76,11 @@ Listening on 0.0.0.0:3000, CTRL+C to stop
 - SimpleCov
 - Sinatra
 - Travis CI
+
+## On the To Do list...
+
+- Beautiful styling
+- Instructions for customising CSV files
+- Copy to clipboard feature
+- [Custom HTTP error handling](http://sinatrarb.com/intro.html#Error%20Handling)
+- Improve default template
