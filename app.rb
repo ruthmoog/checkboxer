@@ -16,7 +16,6 @@ class Checkboxer < Sinatra::Base
 
   post '/templates' do
     @choice = params[:checklist_item]
-    p params
     erb(:templates)
   end
 end

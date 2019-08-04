@@ -1,14 +1,17 @@
 # Checkbo**x**er
 
-Checkbo**x**er is a webtool for STEM journal editors, to speed up the technical check process in peer review.
+Checkbo**x**er is a webtool built with STEM journal editors in mind.  Use Checkbo**x**er to speed up submission requirement checks in pre-review.
 
-The user completes a checklist using the webform, relevant to the journal submission policies.  A customised template is built automatically based on the completed checklist; this can then be tweaked or sent as is by the user to the manuscript owner.
+- Customise your modular revision template and checklist items in a CSV file
+- Complete the checklist per manuscript
+- Copy and paste the generated text to your email interface where you can personalise your message
 
-This tool replaces manual, paper checklists.  Compared to existing workflows, Checkbo**x**er could save editors minutes for every submission they check!
+I witnessed Journal Editors using paper checklists and having to copy and paste paragraphs from a large body of text.  Checkbo**x**er replaces this system, generating only the text you need every time.  
 
-Set up: Journals must create a csv file of standard correspondence modules to build templates from.
+- Checkbo**x**er can save Editors _minutes_ for every submission they check!
+- Checkbo**x**er lowers the chance of human errors, and makes editorial communications more consistent!
 
-## Installation
+## Installation and Set Up
 
 First download the required gems with bundler:
 ```console
@@ -18,6 +21,12 @@ $ bundle install
 Then you'll need to install a webserver, I've used `thin`:
 ```console
 $ gem install thin
+```
+
+**Important**: You will need to customise your CSV file:
+```csv
+First item is the checkbox label,"After the comma is your correction request, you can use commas as long as this is placed withing double quotation marks"
+Author information,"Please ensure that the names and institutions of all authors are included on the title page."
 ```
 
 ## Running the tests
@@ -66,19 +75,3 @@ Listening on 0.0.0.0:3000, CTRL+C to stop
 - Ruby
 - SimpleCov
 - Sinatra
-
-## Animal Checkboxes??
-
-I had the idea to implement this project before I could code.  In March 2019 I made a working webtool with the functionality needed but used animals and animal noises for simplicity.  This project builds on the earlier iteration to make the functional software work in a publishing context.
-
-## How to run
-
-Run the file from the command line with `ruby animal_checkboxes.rb` then in your web browser navigate to the local address `localhost:4567`:
-
-```shell
-$ ruby animal_checkboxes.rb
-== Sinatra (v2.0.5) has taken the stage on 4567 for development with backup from Thin
-Thin web server (v1.7.2 codename Bachmanity)
-Maximum connections set to 1024
-Listening on localhost:4567, CTRL+C to stop
-```
