@@ -114,3 +114,6 @@ Score: 96.28
 - [loremipsum.io](https://loremipsum.io/) - a placeholder text generator
 - [wireframe.cc](https://wireframe.cc/) - a wireframe tool
 - [Learn how to create custom checkboxes and radio buttons with CSS.](https://www.w3schools.com/howto/howto_css_custom_checkbox.asp)
+- Icon made by [Freepik](https://www.flaticon.com/authors/freepik) from www.flaticon.com
+
+

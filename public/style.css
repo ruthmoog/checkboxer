@@ -8,20 +8,67 @@
 }
 
 /* Checkboxer styling */
+
+@media screen and (max-width : 600px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1 {
+    color: #FF00FF;
+    font-size: 3em;
+    text-align: center;
+    font-weight: 400;
+    display: block;
+    margin-top: 0;
+  }
+
+  .X {
+    font-weight: 900
+  }
+
+  img {
+    width: 50px;
+    display: block;
+  }
+}
+
+@media screen and (min-width : 600px) {
+  header {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  h1 {
+    color: #FF00FF;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 400;
+    display: inline-block;
+  }
+
+  .X {
+    font-weight: 900
+  }
+
+  img {
+    width: 50px;
+    display: inline-block;
+  }
+}
+
+
 body {
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   color: #000000;
   text-align: center;
 }
 
-h1 {
-  color: #FF00FF;
-  font-size: 60px;
-  text-align: center;
-}
-
-a, .button {
+.button {
   border: 1px solid #000000;
   border-radius: 25px;
   text-align: center;
@@ -37,7 +84,7 @@ a, .button {
   color: #000000;
 }
 
-a:hover, .button:hover {
+.button:hover {
   box-shadow: 3px 3px 3px #00FF11;
   color: #FFFFFF;
   background-color: #FF00FF;
@@ -59,7 +106,7 @@ p {
   margin: auto;
   text-align: left;
   color: #888888;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.6em;
 }
 
@@ -114,4 +161,25 @@ p {
   border: solid #FFFFFF;
   border-width: 0 4px 4px 0;
   transform: rotate(45deg);
+}
+
+footer {
+  color: #000000;
+  font-size: 12px;
+  position: absolute;
+  bottom: 0;
+  width:100%;
+  line-height: 2em;
+}
+
+.footlink {
+  color: #000000;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #000000;
+  text-decoration: none;
+}
+
+.footlink:hover {
+  color: #FF00FF;
+  border-color: #00FF11;
 }
