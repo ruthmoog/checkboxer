@@ -7,7 +7,7 @@ feature 'user submits empty checklist' do
     go_to_form
     click_button('Submit')
     expect(page).to have_content('There are no corrections.')
-    expect(page).not_to have_content('Lorem ipsum dolor sit amet, consectetur adipiscing elit')
+    expect(page).not_to have_content('Lorem ipsum dolor sit amet, consectetur')
   end
 end
 
@@ -16,7 +16,7 @@ feature 'user selects from a checklist' do
     go_to_form
     check('Lorem ipsum')
     click_button('Submit')
-    expect(page).to have_content('Lorem ipsum dolor sit amet, consectetur adipiscing elit')
+    expect(page).to have_content('Lorem ipsum dolor sit amet, consectetur')
   end
 
   scenario 'user submits multiple corrections' do
@@ -24,7 +24,7 @@ feature 'user selects from a checklist' do
     check('Lorem ipsum')
     check('In vitae')
     click_button('Submit')
-    expect(page).to have_content('Lorem ipsum dolor sit amet, consectetur adipiscing elit')
+    expect(page).to have_content('Lorem ipsum dolor sit amet, consectetur')
     expect(page).to have_content('In vitae turpis massa sed.')
   end
 end
