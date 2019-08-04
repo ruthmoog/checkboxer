@@ -4,13 +4,9 @@
 <form method="POST" action="/templates">
 <% @checklist.each do |check| %>
   <label>
-  <input name='checklist_item' type='checkbox' value='<%= check.request %>'/><%= check.requirement %>
-  </label>
+  <input name='checklist_item[]' type='checkbox' value='<%= check.request %>'/><%= check.requirement %>
+  </label><br />
 <% end %>
-
-  <%# <label>
-    <input name='checklist_item' type='checkbox' />request a change
-  </label> %>
 
   <br />
 

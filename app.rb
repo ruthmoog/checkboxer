@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'sinatra/base'
+require_relative './lib/check.rb'
 
 # App controller for 'Checkboxer'
 class Checkboxer < Sinatra::Base
@@ -15,6 +16,7 @@ class Checkboxer < Sinatra::Base
 
   post '/templates' do
     @choice = params[:checklist_item]
+    p params
     erb(:templates)
   end
 end

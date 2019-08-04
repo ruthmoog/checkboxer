@@ -1,9 +1,9 @@
 <h1>Text Template</h1>
 
-Dear author,
-<br />
 <% if @choice %>
-    <%= @choice %>
+  <h2>The following corrections are requested:</h2>
+  <br /><br />
+    <%= @choice.join('<br /><br />') %>
 <% else %>
   There are no corrections.
 <% end %>
