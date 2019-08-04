@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-feature 'Visit home page' do
-  scenario 'index displays welcome' do
+feature 'user visits home page' do
+  scenario 'displays a welcome message' do
     visit '/'
     expect(page).to have_content('Welcome to Checkboxer')
     expect(page).to have_link('Checklist')

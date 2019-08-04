@@ -2,7 +2,7 @@
 
 require 'check'
 
-RSpec.describe 'check' do
+RSpec.describe 'Check' do
   it 'returns a collection of checks' do
     expected_check = Check.new(
       'request a change',
