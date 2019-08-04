@@ -4,17 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Made by Ruth Baker.  Helping Editors check manuscripts faster.">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900&display=swap" rel="stylesheet">
   <title>Checkboxer</title>
 </head>
+
+<header>
+  <img src="https://thepracticaldev.s3.amazonaws.com/i/svluqqzmb551we56kt7v.png" alt="Checkboxer icon"></img>
+  <h1>Checkbo<span class="X">x</span>er</h1>
+</header>
+
 <body>
-  <h1>Checkbo<strong>x</strong>er</h1>
   <br />
   <% if @choice %>
-    <h2>The following corrections are requested:</h2>
+    The following corrections are requested:
     <br /><br />
-      <%= @choice.join('<br /><br />') %>
+      <p><%= @choice.join('<br /><br />') %></p>
   <% else %>
     There are no corrections.
   <% end %>
   </body>
+
+  <footer>
+Checkboxer is made by ruthmoog <a class="footlink" href="https://ruthmoog.dev">Ruth Baker</a> 2019 and released under MIT License.  Checkboxer icon made by <a class="footlink" href="https://www.flaticon.com/authors/freepik">Freepik</a> from www.flaticon.com.
+</footer>
+
 </html>

@@ -1,4 +1,4 @@
-# Checkbo**x**er
+![Checkboxer](./public/images/header.png)
 
 ![Build Status](https://travis-ci.org/ruthmoog/checkboxer.svg?branch=master)
 
@@ -27,7 +27,7 @@ $ gem install thin
 ```
 
 **Important**: You will need to customise your CSV file:
-![CSV guidelines](./images/csv_guidance.png)
+![CSV guidelines](./public/images/csv_guidance.png)
 
 ## Running the app
 
@@ -83,6 +83,8 @@ New critique at file:XXX.html
 Score: 96.28
 ```
 
+![lighthouse audit](./public/images/lighthouse.png)
+
 ## Tech stack
 
 - [Capybara](https://github.com/teamcapybara/capybara) - an acceptance test framework for web applications
@@ -104,6 +106,17 @@ Score: 96.28
 - [Copy to clipboard feature](https://rubygems.org/gems/clipboard/versions/1.3.3)
 - [Custom HTTP error handling](http://sinatrarb.com/intro.html#Error%20Handling)
 - Improve default template
+
+## Wireframes
+
+![mobile first interface design](./public/images/wireframes.png)
+
+## Resources
+
+- [loremipsum.io](https://loremipsum.io/) - a placeholder text generator
+- [wireframe.cc](https://wireframe.cc/) - a wireframe tool
+- [Learn how to create custom checkboxes and radio buttons with CSS.](https://www.w3schools.com/howto/howto_css_custom_checkbox.asp)
+- Icon made by [Freepik](https://www.flaticon.com/authors/freepik) from www.flaticon.com
 
 ## License
 
