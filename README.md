@@ -108,3 +108,8 @@ Score: 96.28
 ## Wireframes
 
 ![mobile first interface design](./public/images/wireframes.png)
+
+## Resources
+
+- [loremipsum.io](https://loremipsum.io/) - a placeholder text generator
+- [wireframe.cc](https://wireframe.cc/) - a wireframe tool
