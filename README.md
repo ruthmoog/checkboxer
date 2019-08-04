@@ -29,6 +29,19 @@ $ gem install thin
 **Important**: You will need to customise your CSV file:
 ![CSV guidelines](./images/csv_guidance.png)
 
+## Running the app
+
+Run your webserver then navigate to the `localhose:XXportXX` in your browser.
+
+Eg using `thin` run the command in your terminal then go to `localhost:3000`:
+```console
+$ thin start
+Using rack adapter
+Thin web server (v1.7.2 codename Bachmanity)
+Maximum connections set to 1024
+Listening on 0.0.0.0:3000, CTRL+C to stop
+```
+
 ## Running the tests
 
 To run all feature and unit tests, use `rspec` in the command line from the project root:
@@ -51,17 +64,23 @@ Inspecting 6 files
 6 files inspected, no offenses detected
 ```
 
-## Running the app
-
-Run your webserver then navigate to the `localhose:XXportXX` in your browser.
-
-Eg using `thin` run the command in your terminal then go to `localhost:3000`:
+To run code quality tests, use `rubycritic` in the command line from the project root:
 ```console
-$ thin start
-Using rack adapter
-Thin web server (v1.7.2 codename Bachmanity)
-Maximum connections set to 1024
-Listening on 0.0.0.0:3000, CTRL+C to stop
+$ rubycritic
+running flay smells
+
+running flog smells
+.......
+running reek smells
+.......
+running complexity
+.......
+running attributes
+.......
+running churn
+.......
+New critique at file:XXX.html
+Score: 96.28
 ```
 
 ## Tech stack
@@ -77,7 +96,6 @@ Listening on 0.0.0.0:3000, CTRL+C to stop
 - [SimpleCov](https://github.com/colszowka/simplecov) - a code coverage analysis tool for Ruby
 - [Sinatra](http://sinatrarb.com/) - a DSL for creating Ruby web applications
 - [Travis CI](https://travis-ci.org/) - a continuous integration platform and deployment manager
-
 
 ## On the To Do list...
 
