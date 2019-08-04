@@ -4,9 +4,8 @@ rvm:
 
 install:
   - gem uninstall bundler
-  - gem install bundler --version '2.0.1'
+  - gem install bundler --version '2.0.2'
 
 script:
   - bundle install
   - bundle exec rubocop --require rubocop
-  
