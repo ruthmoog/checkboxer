@@ -2,5 +2,5 @@
 
 def go_to_form
   visit('/')
-  click_link('Checklist')
+  click_link('Perform Check')
 end

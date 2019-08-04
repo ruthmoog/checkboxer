@@ -1,9 +1,20 @@
-<h1>Text Template</h1>
-
-<% if @choice %>
-  <h2>The following corrections are requested:</h2>
-  <br /><br />
-    <%= @choice.join('<br /><br />') %>
-<% else %>
-  There are no corrections.
-<% end %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Checkboxer</title>
+</head>
+<body>
+  <h1>Checkbo<strong>x</strong>er</h1>
+  <br />
+  <% if @choice %>
+    <h2>The following corrections are requested:</h2>
+    <br /><br />
+      <%= @choice.join('<br /><br />') %>
+  <% else %>
+    There are no corrections.
+  <% end %>
+  </body>
+</html>

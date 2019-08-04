@@ -1,14 +1,26 @@
-<h1>This is a checklist...</h1>
-<br />
-
-<form method="POST" action="/templates">
-<% @checklist.each do |check| %>
-  <label>
-  <input name='checklist_item[]' type='checkbox' value='<%= check.request %>'/><%= check.requirement %>
-  </label><br />
-<% end %>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Checkboxer</title>
+</head>
+<body>
+  <h1>Checkbo<strong>x</strong>er</h1>
   <br />
-
-  <input type="submit" name="Submit" />
-</form>
+  Check any box where your requirements aren't met.
+  <br />
+  <form method="POST" action="/templates">
+    <% @checklist.each do |check| %>
+      <label>
+      <input name='checklist_item[]' type='checkbox' value='<%= check.request %>'/><%= check.requirement %>
+      </label><br />
+    <% end %>
+    <br />
+    Click submit to generate your custom template!
+    <br />
+    <input type="submit" name="Submit" />
+  </form>
+</body>
+</html>
