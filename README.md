@@ -66,21 +66,23 @@ Listening on 0.0.0.0:3000, CTRL+C to stop
 
 ## Tech stack
 
-- Capybara
-- CSS
-- Embedded Ruby
-- HTML
-- RSpec
-- Rubocop
-- Ruby
-- SimpleCov
-- Sinatra
-- Travis CI
+- [Capybara](https://github.com/teamcapybara/capybara) - an acceptance test framework for web applications
+- [CSS3](https://developer.mozilla.org/en-US/docs/Archive/CSS3) - a cascading style sheets language
+- [eRuby](https://ruby-doc.org/stdlib-2.6.3/libdoc/erb/rdoc/ERB.html) (embedded Ruby) - a templating system for embedding Ruby into a text document
+- [HTML5](https://w3.org/html/logo) - an internet document mark-up language
+- [RSpec](https://rspec.info/) - a testing DSL for Ruby
+- [Rubocop](https://rubocop.readthedocs.io/en/stable/) - a static code analyzer and code formatter
+- [RubyCritic](https://github.com/whitesmith/rubycritic) - a code quality analysis tool for Ruby
+- [Ruby](https://www.ruby-lang.org/en/) - a dynamic, object oriented programming language
+- [SimpleCov](https://github.com/colszowka/simplecov) - a code coverage analysis tool for Ruby
+- [Sinatra](http://sinatrarb.com/) - a DSL for creating Ruby web applications
+- [Travis CI](https://travis-ci.org/) - a continuous integration platform and deployment manager
+
 
 ## On the To Do list...
 
 - Beautiful styling
 - Instructions for customising CSV files
-- Copy to clipboard feature
+- [Copy to clipboard feature](https://rubygems.org/gems/clipboard/versions/1.3.3)
 - [Custom HTTP error handling](http://sinatrarb.com/intro.html#Error%20Handling)
 - Improve default template
