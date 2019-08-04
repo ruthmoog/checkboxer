@@ -27,7 +27,7 @@ $ gem install thin
 ```
 
 **Important**: You will need to customise your CSV file:
-![CSV guidelines](./images/csv_guidance.png)
+![CSV guidelines](./public/images/csv_guidance.png)
 
 ## Running the app
 
@@ -104,3 +104,7 @@ Score: 96.28
 - [Copy to clipboard feature](https://rubygems.org/gems/clipboard/versions/1.3.3)
 - [Custom HTTP error handling](http://sinatrarb.com/intro.html#Error%20Handling)
 - Improve default template
+
+## Wireframes
+
+![mobile first interface design](./public/images/wireframes.png)
