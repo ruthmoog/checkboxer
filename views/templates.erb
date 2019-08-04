@@ -11,9 +11,9 @@
   <h1>Checkbo<strong>x</strong>er</h1>
   <br />
   <% if @choice %>
-    <h2>The following corrections are requested:</h2>
+    The following corrections are requested:
     <br /><br />
-      <%= @choice.join('<br /><br />') %>
+      <p><%= @choice.join('<br /><br />') %></p>
   <% else %>
     There are no corrections.
   <% end %>
