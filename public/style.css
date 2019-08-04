@@ -29,6 +29,7 @@ a, .button {
   text-decoration: none;
   display: block;
   width: 40%;
+  max-width: 250px;
   margin: auto;
   background-color: #EEEEEE;
   font-family: sans-serif;
@@ -47,6 +48,7 @@ a:hover, .button:hover {
 label {
   display: block;
   width: 40%;
+  max-width: 250px;
   margin: auto;
   text-align: left;
 }
