@@ -118,4 +118,6 @@ Score: 96.28
 - [Learn how to create custom checkboxes and radio buttons with CSS.](https://www.w3schools.com/howto/howto_css_custom_checkbox.asp)
 - Icon made by [Freepik](https://www.flaticon.com/authors/freepik) from www.flaticon.com
 
+## License
 
+Checkboxer is released under the [MIT License](./LICENSE.md).
