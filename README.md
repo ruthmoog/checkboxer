@@ -1,15 +1,18 @@
 # Checkbo**x**er
 
-Checkbo**x**er is a webtool built with STEM journal editors in mind.  Use Checkbo**x**er to speed up submission requirement checks in pre-review.
+![Build Status](https://travis-ci.org/ruthmoog/checkboxer.svg?branch=master)
 
-- Customise your modular revision template and checklist items in a CSV file
-- Complete the checklist per manuscript
-- Copy and paste the generated text to your email interface where you can personalise your message
+Checkbo**x**er is a webtool built with STEM journal Editors in mind.  Use Checkbo**x**er to speed up submission requirement checks in pre-review.
 
-I witnessed Journal Editors using paper checklists and having to copy and paste paragraphs from a large body of text.  Checkbo**x**er replaces this system, generating only the text you need every time.  
+1. Customise your modular revision template and checklist items in a CSV file
+2. Complete the checklist per manuscript
+3. Copy and paste the generated text to your email interface where you can personalise your message
+
+### Why Checkbo**x**er?
+I've witnessed Journal Editors using paper checklists, struggling to copy and paste paragraphs from a large body of template text.  Checkbo**x**er remedies this system, generating only the text you need, every time.  
 
 - Checkbo**x**er can save Editors _minutes_ for every submission they check!
-- Checkbo**x**er lowers the chance of human errors, and makes editorial communications more consistent!
+- Checkbo**x**er lowers the chance of human errors, and makes editorial communication quality more consistent!
 
 ## Installation and Set Up
 
@@ -24,10 +27,7 @@ $ gem install thin
 ```
 
 **Important**: You will need to customise your CSV file:
-```csv
-First item is the checkbox label,"After the comma is your correction request, you can use commas as long as this is placed withing double quotation marks"
-Author information,"Please ensure that the names and institutions of all authors are included on the title page."
-```
+![CSV guidelines](https://thepracticaldev.s3.amazonaws.com/i/amh4c3yr9bawb487c61b.png)
 
 ## Running the tests
 
@@ -75,3 +75,4 @@ Listening on 0.0.0.0:3000, CTRL+C to stop
 - Ruby
 - SimpleCov
 - Sinatra
+- Travis CI
