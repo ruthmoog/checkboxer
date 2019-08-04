@@ -1,4 +1,4 @@
-# Checkbo**x**er
+![Checkboxer](./public/images/header.png)
 
 ![Build Status](https://travis-ci.org/ruthmoog/checkboxer.svg?branch=master)
 
