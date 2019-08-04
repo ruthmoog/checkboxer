@@ -27,7 +27,7 @@ $ gem install thin
 ```
 
 **Important**: You will need to customise your CSV file:
-![CSV guidelines](https://thepracticaldev.s3.amazonaws.com/i/amh4c3yr9bawb487c61b.png)
+![CSV guidelines](./images/csv_guidance.png)
 
 ## Running the tests
 
