@@ -11,8 +11,7 @@ class Check
     @request = request
   end
 
-  def self.generate
-    data_file = 'default_data.csv'
+  def self.generate(data_file = 'default_data.csv')
     list = []
     CSV.foreach(data_file) do |row|
       list << Check.new(row[0], row[1])
