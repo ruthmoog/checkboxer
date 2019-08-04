@@ -104,3 +104,7 @@ Score: 96.28
 - [Copy to clipboard feature](https://rubygems.org/gems/clipboard/versions/1.3.3)
 - [Custom HTTP error handling](http://sinatrarb.com/intro.html#Error%20Handling)
 - Improve default template
+
+## License
+
+Checkboxer is released under the [MIT License](./LICENSE.md).
