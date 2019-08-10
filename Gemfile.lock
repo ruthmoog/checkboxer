@@ -132,7 +132,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (= 2.0.1)
   capybara
   rspec
   rubocop
@@ -140,6 +139,9 @@ DEPENDENCIES
   simplecov
   simplecov-console
   sinatra
+
+RUBY VERSION
+   ruby 2.6.3p62
 
 BUNDLED WITH
    2.0.1
