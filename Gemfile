@@ -3,6 +3,7 @@
 source 'https://rubygems.org'
 ruby '2.6.3'
 
+gem 'bundler', '2.0.1'
 gem 'capybara'
 gem 'rspec'
 gem 'rubocop'
