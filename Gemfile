@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 
-gem 'bundler'
+gem 'bundler', '2.0.1'
 gem 'capybara'
 gem 'rspec'
 gem 'rubocop'
