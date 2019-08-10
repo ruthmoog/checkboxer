@@ -14,6 +14,11 @@ I've witnessed Journal Editors using paper checklists, struggling to copy and pa
 - Checkbo**x**er can save Editors _minutes_ for every submission they check!
 - Checkbo**x**er lowers the chance of human errors, and makes editorial communication quality more consistent!
 
+## Demo site
+
+Visit a live demonstration site deployed to Heroku
+- https://checkboxer.herokuapp.com/
+
 ## Installation and Set Up
 
 First download the required gems with bundler:
@@ -90,6 +95,7 @@ Score: 96.28
 - [Capybara](https://github.com/teamcapybara/capybara) - an acceptance test framework for web applications
 - [CSS3](https://developer.mozilla.org/en-US/docs/Archive/CSS3) - a cascading style sheets language
 - [eRuby](https://ruby-doc.org/stdlib-2.6.3/libdoc/erb/rdoc/ERB.html) (embedded Ruby) - a templating system for embedding Ruby into a text document
+- [Heroku](https://www.heroku.com/) - a _platform as a service_
 - [HTML5](https://w3.org/html/logo) - an internet document mark-up language
 - [RSpec](https://rspec.info/) - a testing DSL for Ruby
 - [Rubocop](https://rubocop.readthedocs.io/en/stable/) - a static code analyzer and code formatter
@@ -101,11 +107,9 @@ Score: 96.28
 
 ## On the To Do list...
 
-- Beautiful styling
 - Instructions for customising CSV files
 - [Copy to clipboard feature](https://rubygems.org/gems/clipboard/versions/1.3.3)
 - [Custom HTTP error handling](http://sinatrarb.com/intro.html#Error%20Handling)
-- Improve default template
 
 ## Wireframes
 
