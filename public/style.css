@@ -84,7 +84,7 @@ body {
   color: #000000;
 }
 
-.button:hover {
+.button:hover, .button:focus {
   box-shadow: 3px 3px 3px #00FF11;
   color: #FFFFFF;
   background-color: #FF00FF;
