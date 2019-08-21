@@ -8,16 +8,31 @@ Checkbo**x**er is a webtool built with STEM journal Editors in mind.  Use Checkb
 2. Complete the checklist per manuscript
 3. Copy and paste the generated text to your email interface where you can personalise your message
 
+## Demo site
+- https://checkboxer.herokuapp.com/
+This is a live site deployed to Heroku.  It demonstrates checkbo**x**er's functionality using placeholder text.
+
 ### Why Checkbo**x**er?
-I've witnessed Journal Editors using paper checklists, struggling to copy and paste paragraphs from a large body of template text.  Checkbo**x**er remedies this system, generating only the text you need, every time.  
+I've witnessed journal Editors using paper checklists, struggling to copy and paste paragraphs from a large body of template text.  Checkbo**x**er remedies this system, generating only the text you need, every time.  
 
 - Checkbo**x**er can save Editors _minutes_ for every submission they check!
 - Checkbo**x**er lowers the chance of human errors, and makes editorial communication quality more consistent!
 
-## Demo site
+<details>
+  <summary>
+    Read more...
+  </summary>
+Academic journals want authors to meet their requirements before their submission can be peer reviewed. Journal Editors run through the same checklist for every submission, so that only papers that are ready for review are sent to busy reviewers.
 
-Visit a live demonstration site deployed to Heroku
-- https://checkboxer.herokuapp.com/
+Checks might include,
+- does each author state their institution
+- is there an ethics statement
+- do figures have a caption
+
+For each failed check, the Editor manually copies text, which gets pasted into a letter.  When the letter is completed, the Editor sends the letter to the author asking for all those changes.
+
+With Checkboxer, the Editor can build their checklist and template paragraphs once.  Each time the Editor completes a checklist on a submission, the letter content is generated automatically.
+</details>
 
 ## Installation and Set Up
 
