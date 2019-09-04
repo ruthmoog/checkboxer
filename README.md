@@ -18,15 +18,9 @@ I've witnessed Journal Editors using paper checklists, struggling to copy and pa
 - Checkbo**x**er can save Editors _minutes_ for every submission they check!
 - Checkbo**x**er lowers the chance of human errors, and makes editorial communication quality more consistent!
 
-<details>
-  <summary>
-    Read more...
-  </summary>
+Submissions received in academic journals are checked for completeness before being sent to busy reviewers.  The Journal Editor will perform the same check on every manuscript they receive, lifting standard text for each missing or incomplete item on their checklist, that gets sent to the author asking for their submission to be updated.
 
-    Submissions received in academic journals are checked for completeness before being sent to busy reviewers.  The Journal Editor will perform the same check on every manuscript they receive, lifting standard text for each missing or incomplete item on their checklist, that gets sent to the author asking for their submission to be updated.
-
-    With checkboxer, Editors set up their checks and text only once.  Each time they complete their checklist, the text to be sent to the Author will be automatically generated.
-</details>
+With checkboxer, Editors set up their checks and text only once.  Each time they complete their checklist, the text to be sent to the Author will be automatically generated.
 
 ## Installation and Set Up
 
