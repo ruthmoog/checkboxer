@@ -7,24 +7,24 @@ feature 'user submits empty checklist' do
     go_to_form
     click_button('Submit')
     expect(page).to have_content('There are no corrections.')
-    expect(page).not_to have_content('Lorem ipsum dolor sit amet, consectetur')
+    expect(page).not_to have_content('Please provide a title page')
   end
 end
 
 feature 'user selects from a checklist' do
   scenario 'user submits one correction' do
     go_to_form
-    check('Lorem ipsum')
+    check('Needs title page')
     click_button('Submit')
-    expect(page).to have_content('Lorem ipsum dolor sit amet, consectetur')
+    expect(page).to have_content('Please provide a title page')
   end
 
   scenario 'user submits multiple corrections' do
     go_to_form
-    check('Lorem ipsum')
-    check('In vitae')
+    check('Needs title page')
+    check('Needs acknowledgements')
     click_button('Submit')
-    expect(page).to have_content('Lorem ipsum dolor sit amet, consectetur')
-    expect(page).to have_content('In vitae turpis massa sed.')
+    expect(page).to have_content('Please provide a title page')
+    expect(page).to have_content('Please include an Acknowledgements section')
   end
 end

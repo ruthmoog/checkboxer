@@ -10,10 +10,10 @@ feature 'user performs another check' do
 
   scenario 'cannot see previous template' do
     go_to_form
-    check('Lorem ipsum')
+    check('Needs title page')
     click_button('Submit')
     click_link('Perform Another Check')
     click_button('Submit')
-    expect(page).not_to have_content('Lorem ipsum dolor sit amet, consectetur')
+    expect(page).not_to have_content('Please provide a title page')
   end
 end
