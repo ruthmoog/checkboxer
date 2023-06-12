@@ -1,6 +1,9 @@
 ![Checkboxer](./public/images/header.png)
 
-![Build Status](https://travis-ci.org/ruthmoog/checkboxer.svg?branch=master)
+-----
+
+
+[![Demo website status](https://img.shields.io/website?down_color=lightgrey&down_message=offline&label=demo&style=for-the-badge&up_color=hotpink&up_message=online&url=https%3A%2F%2Fcheckboxer.fly.dev%2F)](https://checkboxer.fly.dev/)
 
 Checkbo**x**er is a webtool built with STEM journal Editors in mind.  Use Checkbo**x**er to speed up submission requirement checks in pre-review.
 1. Customise your modular revision template and checklist items in a CSV file
