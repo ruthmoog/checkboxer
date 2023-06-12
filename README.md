@@ -8,8 +8,8 @@ Checkbo**x**er is a webtool built with STEM journal Editors in mind.  Use Checkb
 3. Copy and paste the generated text to your email interface where you can personalise your message
 
 ## Demo site
-- https://checkboxer.herokuapp.com/
-This is a live site deployed to Heroku.  It demonstrates checkbo**x**er's functionality using placeholder text.
+- https://checkboxer.fly.dev/
+This is a live site deployed to Fly.  It demonstrates checkbo**x**er's functionality using placeholder text.
 
 ### Why Checkbo**x**er?
 
@@ -126,4 +126,4 @@ Score: 96.28
 
 ## License
 
-Checkboxer is released under the [MIT License](./LICENSE.md).
+Checkbo**x**er is released under the [MIT License](./LICENSE.md).
