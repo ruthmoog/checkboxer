@@ -113,12 +113,6 @@ Score: 96.28
 - [Sinatra](http://sinatrarb.com/) - a DSL for creating Ruby web applications
 - [Travis CI](https://travis-ci.org/) - a continuous integration platform and deployment manager
 
-## On the To Do list...
-
-- Instructions for customising CSV files
-- [Copy to clipboard feature](https://rubygems.org/gems/clipboard/versions/1.3.3)
-- [Custom HTTP error handling](http://sinatrarb.com/intro.html#Error%20Handling)
-
 ## Wireframes
 
 ![mobile first interface design](./public/images/wireframes.png)
