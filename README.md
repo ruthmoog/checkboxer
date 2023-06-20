@@ -10,6 +10,8 @@ Checkbo**x**er is a webtool built with STEM journal Editors in mind.  Use Checkb
 2. Complete the checklist per manuscript
 3. Copy and paste the generated text to your email interface where you can personalise your message
 
+![Checkboxer project](https://github.com/ruthmoog/portfolio/blob/master/public/images/projects/checkboxer.webp)
+
 ## Demo site
 - https://checkboxer.fly.dev/
 This is a live site deployed to Fly.  It demonstrates checkbo**x**er's functionality using placeholder text.
@@ -42,7 +44,7 @@ $ gem install thin
 
 ## Running the app
 
-Run your webserver then navigate to the `localhose:XXportXX` in your browser.
+Run your webserver then navigate to the `localhost:XXportXX` in your browser.
 
 Eg using `thin` run the command in your terminal then go to `localhost:3000`:
 ```console
